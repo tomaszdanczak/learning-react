@@ -1,0 +1,11 @@
+.body--chapter15 {
+  padding: 50px;
+  background-color: #66ccff;
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+.body--chapter15 .wrapper {
+  display: flex;
+  justify-content: center;
+}
