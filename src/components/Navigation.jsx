@@ -1,22 +1,28 @@
 import logo from "./../logo.svg";
 import React from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 
 const Navigation = () => {
   return (
     <Navbar fixed="top" expand="sm">
-      <Navbar.Brand>
-        <img alt="Logo" className="App-logo" src={logo} /> Logo
-      </Navbar.Brand>
+      <LinkContainer to="/" exact>
+        <Navbar.Brand>
+          <img src={logo} className="App-logo" alt="logo" /> Learning React
+        </Navbar.Brand>
+      </LinkContainer>
 
       <Navbar.Toggle />
 
       <Navbar.Collapse>
         <Nav>
-          <NavDropdown title="Products">
-            <NavDropdown.Item href="blog">Blog</NavDropdown.Item>
-            <NavDropdown.Item href="about-us">About Us</NavDropdown.Item>
-            <NavDropdown.Item href="contact-us">Contact Us</NavDropdown.Item>
+          <NavDropdown title="Chapters">
+            <LinkContainer to="/chapter02">
+              <NavDropdown.Item>Chapter 2</NavDropdown.Item>
+            </LinkContainer>
+            <LinkContainer to="/chapter03">
+              <NavDropdown.Item>Chapter 3</NavDropdown.Item>
+            </LinkContainer>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
