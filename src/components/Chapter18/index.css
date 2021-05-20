@@ -1,0 +1,50 @@
+.body--chapter18 {
+  background-color: #ffcc00;
+  padding: 20px;
+  margin: 0;
+}
+
+.body--chapter18 h1,
+.body--chapter18 h2,
+.body--chapter18 p,
+.body--chapter18 ul,
+.body--chapter18 li {
+  font-family: sans-serif;
+}
+
+.body--chapter18 ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+.body--chapter18 ul.header {
+  background-color: #111;
+  padding: 0;
+}
+
+.body--chapter18 ul.header li a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.body--chapter18 .content {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.body--chapter18 .content h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.body--chapter18 .content li {
+  margin-bottom: 10px;
+}
+
+.body--chapter18 .active {
+  background-color: #0099ff;
+}
