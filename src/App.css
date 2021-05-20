@@ -22,6 +22,14 @@ img {
   border-radius: 0.3rem;
 }
 
+.dropdown {
+  padding-left: 12px;
+}
+
+.navbar-toggler {
+  margin-right: 12px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

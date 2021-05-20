@@ -5,7 +5,7 @@ import { LinkContainer } from "react-router-bootstrap";
 
 const Navigation = () => {
   return (
-    <Navbar fixed="top" expand="sm">
+    <Navbar collapseOnSelect bg="light" variant="light" fixed="top" expand="sm">
       <LinkContainer to="/" exact>
         <Navbar.Brand>
           <img src={logo} className="App-logo" alt="logo" /> Learning React
