@@ -1,0 +1,37 @@
+.body--chapter20 {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  background: #8e7c93;
+  min-height: 100vh;
+}
+
+.body--chapter20 .wrapper {
+  background-color: #fff;
+  margin: 100px;
+  padding: 10px;
+  border-radius: 3px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body--chapter20 .buttons {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 3px;
+  transition: all 0.15s ease-in;
+}
+
+.body--chapter20 .buttons:hover:nth-child(1) {
+  background-color: #f45b69;
+}
+
+.body--chapter20 .buttons:hover:nth-child(3) {
+  background-color: #c0dfa1;
+}
