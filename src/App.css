@@ -4,6 +4,17 @@
   }
 }
 
+.content {
+  margin-top: 60px;
+  padding: 12px;
+  height: 3000px;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
